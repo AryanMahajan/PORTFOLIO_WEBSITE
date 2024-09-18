@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Oswald&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Oswald&family=Poppins:wght@300;600&family=Rubik+Doodle+Shadow&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*--------------------MEDIA--------------------*/
+
+html{
+    font-size: medium;
+}
+
+@media(max-width:1517px){
+    html{
+      font-size: 95%;
+    }
+  }
+  @media(max-width: 1414px){
+    html{
+      font-size: 90%;
+    }
+  }
+  @media(max-width: 1345px){
+    html{
+      font-size: 85%;
+    }
+  }
+  @media(max-width: 1270px){
+    html{
+      font-size: 80%;
+    }
+  }
+  @media(max-width: 1200px){
+    html{
+      font-size: 75%;
+    }
+  }
+  @media(max-width: 1130px){
+    html{
+      font-size: 70%;
+    }
+  }
+  @media(max-width: 1048px){
+    html{
+      font-size: 65%;
+    }
+    .photo img{
+      margin-bottom: 20vh;
+    }
+  }
+  @media(max-width: 990px){
+    html{
+      font-size: 60%;
+    }
+  }
+  
+
+/*------------------------------HEADER------------------------------*/
+
+.container {
+    display: flex;
+    background-color: black;
+    padding: 6.5vh;
+    padding-left: 3.5vw;
+    padding-bottom: 5vh;
+    top: 0;
+}
+
+.nav_name a {
+    color: white;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+.nav_name a:hover {
+    color: #bfc500;
+
+}
+
+
+.navbar {
+    color: white;
+    padding-left: 25vw;
+}
+
+.navbar a:hover {
+    color: #bfc500;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+.nav_name a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarlogos a img {
+    width: 1.6rem;
+    padding-left: 2rem;
+}
+
+@keyframes grow-progress {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+#progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.35vh;
+    background: #bfc500;
+
+    transform-origin: 0 50%;
+    animation: grow-progress auto linear;
+    animation-timeline: scroll();
+}
+
+
+
+.container2 {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: rgb(60, 58, 62);
+}
+
+
+/*------------------------------CONTENT------------------------------*/
+.certificate_text {
+    color: #bfc500;
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.main {
+    display: flex;
+    height: auto;
+    border: black;
+    background-color: #000000;
+    color: white;
+    margin-top: 2vh     ;
+    margin-left: 10vw;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgb(49, 47, 47);
+}
+
+#line {
+    margin-top: 5vh;
+    border-left: 12vw #bfc500;
+    height: 325vh;
+    margin-left: 50px;
+    width: 0.75vw;
+    background-image: linear-gradient(rgb(213, 167, 97), rgb(155, 119, 64));
+    border-radius: 30px;
+    margin-bottom: 5vh;
+}
+
+.indexes{
+    display: flex;
+}
+
+.hr1 hr {
+    background-image: linear-gradient(rgb(213, 167, 97), rgb(155, 119, 64));
+    width: 20vw;
+    margin-top: 31vh;
+    height: 0.6vw;
+    border-radius: 2px;
+    margin-left: -1px;
+    border: white;
+}
+
+.certificate{
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    margin-top: 11vh;
+    border-radius: 1.5rem;
+    margin-left: -1px;
+    display: flex;
+}
+
+.logo {
+    margin-top: 16.6vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.issue {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.line2 {
+    margin-top: 4vh;
+    border-left: 12vw black;
+    height: 35vh;
+    margin-bottom: 4vh;
+    margin-left: 2vw;
+    width: 0.1rem;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.date {
+    margin-left: 1vw;
+    font-size: 0.8rem;
+    font-family: cursive;
+    color: black;
+}
+
+
+.information0 {
+    color: black;
+    margin-top: 7vh;
+    margin-left: 6vw;
+    font-size: 1.5rem;
+}
+
+.certificatelink0 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 7vh;
+
+}
+
+.certificatelink0 a:hover {
+    color: #bfc500;
+}
+
+
+.information1 {
+    color: black;
+    margin-top: 7vh;
+    margin-left: 6vw;
+    font-size: 1.5rem;
+}
+
+.certificatelink1 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 7vh;
+
+}
+
+.certificatelink1 a:hover {
+    color: #bfc500;
+}
+
+.information2 {
+    color: black;
+    margin-top: 7vh;
+    margin-left: 4.75vw;
+    font-size: 1.5rem;
+}
+
+.certificatelink2 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 7vh;
+
+}
+
+.certificatelink2 a:hover {
+    color: #bfc500;
+}
+
+.information3 {
+    color: black;
+    margin-top: 7vh;
+    margin-left: 6vw;
+    font-size: 1.5rem;
+}
+
+.certificatelink3 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 7vh;
+
+}
+
+.certificatelink3 a:hover {
+    color: #bfc500;
+}
+
+.information4 {
+    color: black;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    font-size: 1.5rem;
+}
+
+.certificatelink4 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 5vh;
+
+}
+
+.certificatelink4 a:hover {
+    color: #bfc500;
+}
+
+.information5 {
+    color: black;
+    margin-top: 3vh;
+    margin-left: 6vw;
+    font-size: 1.5rem;
+}
+
+.certificatelink5 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 5vh;
+
+}
+
+.certificatelink5 a:hover {
+    color: #bfc500;
+}
+
+.certificatedownload0 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 3vh;
+}
+
+.certificatedownload0 a:hover {
+    color: #bfc500;
+}
+
+
+.certificatedownload1 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 3vh;
+}
+
+.certificatedownload1 a:hover {
+    color: #bfc500;
+}
+
+.certificatedownload2 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 3vh;
+}
+
+.certificatedownload2 a:hover {
+    color: #bfc500;
+}
+
+.certificatedownload3 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 3vh;
+}
+
+.certificatedownload3 a:hover {
+    color: #bfc500;
+}
+
+.certificatedownload4 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 2vh;
+}
+
+.certificatedownload4 a:hover {
+    color: #bfc500;
+}
+.certificatedownload5 {
+    text-decoration: none;
+    color: black;
+    margin-left: 8vw;
+    margin-top: 2vh;
+}
+
+.certificatedownload5 a:hover {
+    color: #bfc500;
+}
+
+/*------------------------------FOOTER------------------------------*/
+.container3 {
+    font-size: small;
+    flex-direction: row;
+    background-color: #000000;
+    color: #bfc500;
+}
+
+.footerfirst {
+    display: flex;
+    padding-bottom: 1vh;
+}
+
+.footer1 {
+    font-weight: bold;
+    padding-top: 4vh;
+    font-size: medium;
+    width: 16vw;
+    text-align: center;
+    padding-left: 10vw;
+    font-family: math;
+    padding-right: 13vw;
+}
+
+.footer2 {
+    padding-top: 2vh;
+    width: 16vw;
+    padding-left: 8vw;
+}
+
+.footer3 {
+
+    width: 16vw;
+    padding-left: 10vw;
+
+    padding-top: 4.5vh;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #bfc500;
+}
+
+.footer2 a:hover {
+    color: white;
+}
+
+.footerlast {
+    text-align: center;
+}
+
+/*------------------------------ADDITIONAL------------------------------*/
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        clip-path: inset(0% 60% 0% 50%);
+    }
+
+    to {
+        opacity: 1;
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+.revealing-image {
+    animation: auto linear reveal both;
+    animation-timeline: view();
+    animation-range: entry 25% cover 50%;
+}
+
+#grow {
+    transition: all .2s ease-in-out;
+}
+
+#grow:hover {
+    transform: scale(1.2);
+}
+
+
+

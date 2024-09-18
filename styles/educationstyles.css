@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Oswald&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Oswald&family=Poppins:wght@300;600&family=Rubik+Doodle+Shadow&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+/*--------------------MEDIA--------------------*/
+html{
+    font-size: medium;
+  }
+  
+  
+  @media(max-width:1517px){
+    html{
+      font-size: 95%;
+    }
+  }
+  @media(max-width: 1414px){
+    html{
+      font-size: 90%;
+    }
+  }
+  @media(max-width: 1345px){
+    html{
+      font-size: 85%;
+    }
+  }
+  @media(max-width: 1270px){
+    html{
+      font-size: 80%;
+    }
+  }
+  @media(max-width: 1200px){
+    html{
+      font-size: 75%;
+    }
+  }
+  @media(max-width: 1130px){
+    html{
+      font-size: 70%;
+    }
+  }
+  @media(max-width: 1048px){
+    html{
+      font-size: 65%;
+    }
+    .photo img{
+      margin-bottom: 20vh;
+    }
+    .blogs{
+        font-size: 65%;
+    }
+  }
+  @media(max-width: 990px){
+    html{
+      font-size: 60%;
+    }
+  }
+  
+
+/*------------------------------HEADER------------------------------*/
+
+.container {
+    display: flex;
+    background-color: black;
+    padding: 6.5vh;
+    padding-left: 3.5vw;
+    padding-bottom: 5vh;
+    top: 0;
+}
+
+.nav_name a {
+    color: white;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+
+.nav_name a:hover {
+    color: #bfc500;
+
+}
+
+
+.navbar {
+    color: white;
+    padding-left: 25vw;
+}
+
+.navbar a:hover {
+    color: #bfc500;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+.nav_name a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbarlogos a img {
+    width: 1.6rem;
+    padding-left: 2rem;
+}
+
+@keyframes grow-progress {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+#progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.35vh;
+    background: #bfc500;
+
+    transform-origin: 0 50%;
+    animation: grow-progress auto linear;
+    animation-timeline: scroll();
+}
+
+
+
+.container2 {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-family: 'Inria Sans', sans-serif;
+    background-color: rgb(60, 58, 62);
+}
+
+
+
+
+/*------------------------------CONTENT------------------------------*/
+.main {
+    display: flex;
+    border: black;
+    background-color: black;
+    color: white;
+    margin-left: 5vw;
+    width: 89vw;
+    border-radius: 3rem;
+    margin-bottom: 5vh;
+}
+
+.main-2 {
+    display: flex;
+    border: black;
+    background-color: black;
+    color: white;
+    margin-left: 5vw;
+    width: 89vw;
+    border-radius: 3rem;
+}
+
+.academiceducation-heading {
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    margin-top: 7vh;
+    text-align: center;
+    margin-left: 2vw;
+    transition: 0.7s;
+}
+
+.academiceducation-heading:hover {
+    transform: scale(1.03);
+}
+
+.academic-rows {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8vh;
+}
+
+.boxes {
+    background-color: rgb(255 255 255);
+    width: 25vw;
+    margin-top: 6.5vh;
+    border-radius: 1.5rem;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    background-color: rgb(255 255 255);
+    width: 25vw;
+    margin-top: 6.5vh;
+    border-radius: 1.5rem;
+    margin-left: 1.9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    margin-top: 4vh;
+    border-left: 12vw black;
+    height: auto;
+    margin-left: 2vw;
+    width: 0.1vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-bottom: 4vh;
+}
+
+.shauryalogo {
+    margin-left: 6.25vw;
+    margin-top: 0vh;
+}
+
+.shauryalogo img{
+    width: 11vw;
+    height: 11vw;
+}
+
+.btechlogo {
+    margin-left: 6.8vw;
+    margin-top: 3.3vh;
+}
+
+.btechlogo img {
+    width: 11vw;
+    height: 7.8vw;
+}
+
+.shaurya-hr {
+    background-color: #000000;
+    height: 0.1rem;
+    border-radius: 10px;
+    margin-left: 0.85vw;
+    margin-right: 0.85vw;
+}
+
+.sushant-hr {
+    background-color: #000000;
+    height: 0.1rem;
+    border-radius: 10px;
+    margin-right: 0.85vw;
+    margin-left: 0.85vw;
+    margin-top: 3.75vh;
+}
+
+.highschoolgrad {
+    color: black;
+    font-size: large;
+}
+
+.gradyear {
+    color: black;
+    font-size: smaller;
+    font-family: cursive;
+}
+
+.highschoolname {
+    color: black;
+    font-size: medium;
+}
+
+.class10 {
+    font-size: small;
+    color: black;
+}
+
+.class12 {
+    font-size: small;
+    color: black;
+}
+
+.undergrad {
+    color: black;
+    font-size: large;
+}
+
+.undergradyear {
+    color: black;
+    font-size: smaller;
+    font-family: cursive;
+}
+
+.undergradname {
+    color: black;
+    font-size: medium;
+}
+
+.CGPA {
+    display: flex;
+}
+
+.sem {
+    font-size: small;
+    color: black;
+    margin-left: 2vw;
+}
+
+
+.skills-heading {
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 33vw;
+    margin-top: 7vh;
+    transition: 0.7s;
+}
+
+.skills-heading:hover {
+    transform: scale(1.03);
+}
+
+.skillnameprogress {
+    display: flex;
+}
+
+.skill-col {
+    margin-left: 2vw;
+}
+
+.label {
+    width: 20vw;
+}
+
+.skill-label {
+    margin-right: 1vw;
+}
+
+.skill {
+    margin-bottom: 1vh;
+}
+
+.blog {
+    width: 54vw;
+}
+
+.accomplishments {
+    width: 33vw;
+}
+.accomp-heading{
+    margin-left: 9vw;
+    margin-top: 4vh;
+    transition: 0.7s;
+}
+.accomp-heading:hover {
+    transform: scale(1.03);
+}
+
+.accomp1 {
+    background-color: rgb(255, 255, 255);
+    width: 28vw;
+    height: 14vh;
+    margin-top: 3vh;
+    border-radius: 20px;
+    margin-left: 2.5vw;
+    display: flex;
+}
+
+.accomp1 img{
+    height: 12vh;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+}
+
+.line2 {
+    margin-top: 1vh;
+    border-left: 12vw black;
+    height: 12vh;
+    margin-left: 1vw;
+    width: 0.02rem;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.secured{
+    color: black;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+.link{
+    text-align: right;
+    margin-right: 1vw;
+    color: black;
+}
+
+.link:hover{
+    color: #bfc500;
+}
+.link a:hover{
+    color: #bfc500;
+}
+
+.blogs{
+    width: auto;
+    height: auto;
+}
+
+.blog-heading{
+    margin-top: 4vh;
+    transition: 0.7s;
+}
+.blog-heading:hover {
+    transform: scale(1.03);
+}
+
+.blog-row-1{
+    display: flex;
+}
+
+.blog-1{
+    background-color: rgb(255, 255, 255);
+    width: 28vw;
+    height: auto;
+    margin-top: 3vh;
+    border-radius: 20px;
+    margin-left: 2.5vw;
+    display: flex;
+}
+.blog-2{
+    background-color: rgb(255, 255, 255);
+    width: 28vw;
+    height: auto;
+    margin-top: 3vh;
+    border-radius: 20px;
+    margin-left: 2.5vw;
+    display: flex;
+}
+
+.blog-row-more{
+    margin-left: 13.5vw;
+}
+
+.blog-3{
+    background-color: rgb(255, 255, 255);
+    width: 24.5vw;
+    height: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+    margin-left: 2.5vw;
+    display: flex;
+}
+
+.blog-logo img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+}
+
+.blog-link-1{
+    font-size: 2.75vh;
+    margin-top: 6.5vh;
+    margin-left: 1.5vw;
+}
+
+.blog-link-1 a:hover{
+    color: #bfc500;
+}
+.blog-link-2{
+    font-size: 2.75vh;
+    margin-top: 0.5vh;
+    margin-left: 1.5vw;
+}
+
+.blog-link-2 a:hover{
+    color: #bfc500;
+}
+.blog-link-3{
+    font-size: 2.75vh;
+    margin-top: 2.5vh;
+    margin-left: 1.5vw;
+}
+
+.blog-link-3 a:hover{
+    color: #bfc500;
+}
+.blog-link-4{
+    font-size: 2.75vh;
+    margin-top: 5vh;
+    margin-left: 1.5vw;
+}
+
+.blog-link-4 a:hover{
+    color: #bfc500;
+}
+
+.blog-link-4 h3{
+    text-align: center;
+}
+
+.blog-link-more{
+    font-size: 2.75vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    color: black;
+    margin-left: 1vw;
+}
+
+.blog-3:hover{
+    background-color: #bfc500;
+    border-radius: 25rem;
+}
+
+/*------------------------------FOOTER------------------------------*/
+.container3 {
+    font-size: small;
+    flex-direction: row;
+    background-color: #000000;
+    color: #bfc500;
+    height: 20vh;
+}
+
+.footerfirst {
+    display: flex;
+    padding-bottom: 1vh;
+}
+
+.footer1 {
+    font-weight: bold;
+    padding-top: 4vh;
+    font-size: medium;
+    width: 16vw;
+    text-align: center;
+    padding-left: 10vw;
+    font-family: math;
+    padding-right: 13vw;
+}
+
+.footer2 {
+    padding-top: 2vh;
+    width: 16vw;
+    padding-left: 8vw;
+}
+
+.footer3 {
+
+    width: 16vw;
+    padding-left: 10vw;
+
+    padding-top: 4.5vh;
+}
+
+.footer2 a {
+    text-decoration: none;
+    color: #bfc500;
+}
+
+.footer2 a:hover {
+    color: white;
+}
+
+.footerlast {
+    text-align: center;
+}
+
+#grow {
+    transition: 0.8s;
+}
+
+#grow:hover {
+    transform: scale(1.1);
+}
