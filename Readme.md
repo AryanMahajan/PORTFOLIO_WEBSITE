@@ -1,3 +1,3 @@
 Aryan Mahajan Portfolio 
 
-Link :- https://private-aryan.vercel.app/
+Link :- https://aryanmahajan.vercel.app/
