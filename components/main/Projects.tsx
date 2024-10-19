@@ -9,7 +9,7 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[35px] lg:text-[52px] text-slate-400 font-roboto font-extralight mb-10 ">
-        My Projects (3)
+        My Projects
       </h1>
       <div className="h-full flex flex-col items-center gap-y-12 mb-20">
 
