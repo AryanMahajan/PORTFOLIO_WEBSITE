@@ -38,7 +38,7 @@ export default function HeroContent() {
             >
                 <motion.p
                 variants={slideInFromLeft(0.8)}
-                className='text-sm font-extralight lg:font-normal text-center lg:text-start lg:text-lg text-gray-400 lg:my-5 lg:max-w-[600px] w-[310px] lg:w-auto h-auto'
+                className='text-sm font-extralight lg:font-normal text-center lg:text-start lg:text-lg text-gray-400 lg:my-5 lg:max-w-[600px] w-[310px] lg:w-auto h-auto ml-9 lg:ml-0'
                 >
                     I&apos;m a student with an interest in Artificial Intelligence, Machine Learning, Data Science, and Blockchain Technology. I am passionate about exploring how these fields can drive innovation and solve real-world problems. Currently, I am focused on developing my skills through coursework and hands-on projects, and I look forward to collaborating with like-minded individuals to further my understanding and contribute to impactful solutions.
                 </motion.p>
