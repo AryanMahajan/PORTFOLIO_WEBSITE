@@ -44,10 +44,4 @@ export const MyProjects = [
         imageSrc: "/vice-website.png",
         link: "https://github.com/AryanMahajan/DOTS"
     },
-    {
-        title: "House Price Prediction using TensorFlow and Keras",
-        description: "This project predicts house prices using three features: area, number of bedrooms, and bathrooms. It leverages TensorFlow and Keras to build and train the machine learning model.",
-        imageSrc: "/medium.png",
-        link: "https://github.com/AryanMahajan/House_Price_Prediction_Model"
-    },
 ]
