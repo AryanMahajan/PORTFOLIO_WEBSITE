@@ -53,7 +53,7 @@ export const MyProjects = [
     {
         title: "Industrial_Machine_Fault_Detection",
         description: "DOTS is a machine learning model which can classify whether the image is of a dog or a cat using CNN method and is made using TensorFlow.",
-        imageSrc: "/fault.png",
+        imageSrc: "/fault.jpeg",
         link: "https://github.com/AryanMahajan/Industrial_Machine_Fault_Detection"
     },
 ]
