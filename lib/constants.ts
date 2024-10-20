@@ -40,7 +40,7 @@ export const MyProjects = [
     },
     {
         title: "Conversational Image Recoginition Chatbot Prototype_1",
-        description: "DOTS is a machine learning model which can classify whether the image is of a dog or a cat using CNN method and is made using TensorFlow.",
+        description: "The Conversational Image Recognition Chatbot is an AI-powered system that combines natural language processing (NLP) and computer vision. It is designed to engage users in dynamic conversations by interpreting both visual input (images) and text-based questions or commands. This chatbot aims to provide seamless interactions by recognizing objects, scenes, or text within an image and responding with relevant information or following up with clarifying questions.",
         imageSrc: "/vice-website.png",
         link: "https://github.com/AryanMahajan/Conversational_Image_Recoginition_Chatbot_Prototype_1"
     },
@@ -52,7 +52,7 @@ export const MyProjects = [
     },
     {
         title: "Industrial Machine Fault Detection",
-        description: "DOTS is a machine learning model which can classify whether the image is of a dog or a cat using CNN method and is made using TensorFlow.",
+        description: "The Industrial Machine Fault Detection System leverages advanced machine learning models to identify, predict, and classify faults or anomalies in industrial equipment. This system aims to enhance operational efficiency by enabling early fault detection, reducing downtime, and supporting preventive maintenance through continuous monitoring and analysis of machine data.",
         imageSrc: "/fault.jpeg",
         link: "https://github.com/AryanMahajan/Industrial_Machine_Fault_Detection"
     },
