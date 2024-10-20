@@ -39,7 +39,7 @@ export const MyProjects = [
         link: "https://github.com/AryanMahajan/Flappy_Bird_With_NEAT"
     },
     {
-        title: "Conversational_Image_Recoginition_Chatbot_Prototype_1",
+        title: "Conversational Image Recoginition Chatbot Prototype_1",
         description: "DOTS is a machine learning model which can classify whether the image is of a dog or a cat using CNN method and is made using TensorFlow.",
         imageSrc: "/vice-website.png",
         link: "https://github.com/AryanMahajan/Conversational_Image_Recoginition_Chatbot_Prototype_1"
@@ -51,7 +51,7 @@ export const MyProjects = [
         link: "https://github.com/AryanMahajan/DOTS"
     },
     {
-        title: "Industrial_Machine_Fault_Detection",
+        title: "Industrial Machine Fault Detection",
         description: "DOTS is a machine learning model which can classify whether the image is of a dog or a cat using CNN method and is made using TensorFlow.",
         imageSrc: "/fault.jpeg",
         link: "https://github.com/AryanMahajan/Industrial_Machine_Fault_Detection"
