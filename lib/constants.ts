@@ -40,7 +40,7 @@ export const MyProjects = [
     },
     {
         title: "Conversational Image Recoginition Chatbot Prototype_1",
-        description: "The Conversational Image Recognition Chatbot is an AI-powered system that combines natural language processing (NLP) and computer vision. It is designed to engage users in dynamic conversations by interpreting both visual input (images) and text-based questions or commands. This chatbot aims to provide seamless interactions by recognizing objects, scenes, or text within an image and responding with relevant information or following up with clarifying questions.",
+        description: "The Conversational Image Recognition Chatbot is an AI-powered system that combines natural language processing (NLP) and computer vision. It is designed to engage users in dynamic conversations by interpreting both visual input (images) and text-based questions or commands. This chatbot aims to provide seamless interactions by recognizing objects, scenes, or text within an image and responding with relevant information or following up with clarifying questions. (Currently Under Development)",
         imageSrc: "/vice-website.png",
         link: "https://github.com/AryanMahajan/Conversational_Image_Recoginition_Chatbot_Prototype_1"
     },
