@@ -59,6 +59,7 @@ export const MyProjects = [
     {
         title: "Classifying images of Dogs and Cats using SVM.",
         description: "This project was done under internship at Prodigy InfoTech. This project is simliar to DOTS but uses different concept of Machine Learning known as SVM's while DOTS uses a concept of deep learning known as neural networks.",
+        imageSrc: "/fault.jpeg",
         link: "https://github.com/AryanMahajan/PRODIGY_ML_03"
     },
     {
