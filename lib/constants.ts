@@ -53,7 +53,7 @@ export const MyProjects = [
     {
         title: "Hand Gesture Recoginition",
         description: "This project was done under internship at Prodigy InfoTech. This projects help in the recoginition of hand sign and can be further developed to better understand sign languages.",
-        imageSrc: "/HandGesture.jpeg",
+        imageSrc: "/HandGesture.png",
         link: "https://github.com/AryanMahajan/PRODIGY_ML_04"
     },
     {
