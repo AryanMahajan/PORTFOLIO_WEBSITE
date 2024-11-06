@@ -51,6 +51,12 @@ export const MyProjects = [
         link: "https://github.com/AryanMahajan/DOTS"
     },
     {
+        title: "Neural Network from Scratch",
+        description: "This project implements the idea of artificial neural network without using any external machine learning libraries such as tensorflow, pytorch or sklearn. It only uses basic libraries like numpy and pandas for mathematical use and data processing respectively.",
+        imageSrc: "/neuralnetwork.png",
+        link: "https://github.com/AryanMahajan/Neural_Network_From_Scratch"
+    },
+    {
         title: "Hand Gesture Recoginition",
         description: "This project was done under internship at Prodigy InfoTech. This projects help in the recoginition of hand sign and can be further developed to better understand sign languages.",
         imageSrc: "/HandGesture.png",
