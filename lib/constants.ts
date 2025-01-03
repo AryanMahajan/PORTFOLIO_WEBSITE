@@ -63,12 +63,6 @@ export const MyProjects = [
         link: "https://github.com/AryanMahajan/PRODIGY_ML_04"
     },
     {
-        title: "Classifying images of Dogs and Cats using SVM.",
-        description: "This project was done under internship at Prodigy InfoTech. This project is simliar to DOTS but uses different concept of Machine Learning known as SVM's while DOTS uses a concept of deep learning known as neural networks.",
-        imageSrc: "/fault.jpeg",
-        link: "https://github.com/AryanMahajan/PRODIGY_ML_03"
-    },
-    {
         title: "Industrial Machine Fault Detection",
         description: "The Industrial Machine Fault Detection System leverages advanced machine learning models to identify, predict, and classify faults or anomalies in industrial equipment. This system aims to enhance operational efficiency by enabling early fault detection, reducing downtime, and supporting preventive maintenance through continuous monitoring and analysis of machine data.",
         imageSrc: "/fault.jpeg",
