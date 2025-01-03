@@ -13,43 +13,26 @@ const Footer = () => {
   return (
     <div className="w-[200px] lg:w-full pl-[120px] lg:pl-0 h-full bg-transparent text-gray-200 shadow-lg lg:p-[15px] ">
         <div className="w-full flex flex-col items-center justify-center lg:m-auto">
-            <div className="w-[400px] lg:w-full h-full grid grid-cols-2 items-center justify-around lg:flex lg:flex-row lg:flex-wrap">
+            <div className="w-[400px] lg:w-full h-full grid grid-cols-1 items-center justify-around lg:grid-cols-2">
                 
 
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start pl-8 lg:pl-0">
-                    <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
+                <div className="w-full justify-center items-center h-auto flex flex-col  pl-8 lg:ml-28">
+                    <div className="font-bold text-[16px]">Get connected</div>
+                    
                     <p onClick={() => window.open("https://github.com/AryanMahajan")} className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>    
                     </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
-                </div>
-                <div className="min-w-[200px] min-h-[175px] h-auto flex flex-col items-center justify-start mb-2 lg:mb-0">
-                    <div className="font-bold text-[16px]">Social Media</div>
-
-                    <div onClick={() => window.open("")} className="text-white">
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer ">
-                            <RxTwitterLogo />
-                            <span className="text-[15px] ml-[6px]">Twitter</span>    
-                        </p>
-                    </div>
-                    
-                    
                     <div onClick={() => window.open("https://www.linkedin.com/in/aryan-mahajan-b11684258/")} className="text-white">
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxLinkedinLogo />
                             <span className="text-[15px] ml-[6px]">Linkedin</span>    
                         </p>
                     </div>
+                    
                 </div>
-                <div className="min-w-[200px] min-h-[175px] flex-col items-center justify-start hidden lg:flex">
+                
+                <div className="flex-col pb-11 items-center justify-start hidden lg:flex lg:mr-20">
                     <div className="font-bold text-[16px]">Contact Details</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <span className="text-[15px] ml-[6px]">aryanmahajan0409@gmail.com</span>    
