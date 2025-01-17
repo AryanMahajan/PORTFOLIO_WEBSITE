@@ -31,7 +31,7 @@ export default function Education() {
                     <div className='text-center mt-6 grid grid-cols-2 gap-y-4 gap-x-2'>
                         <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 1 SGPA: 8.76 / 10</motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 2 SGPA: 8.77 / 10</motion.div>
-                        <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 3 SGPA: 0 / 0</motion.div>
+                        <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 3 SGPA: 9.30 / 10</motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 4 SGPA: 0 / 0</motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 5 SGPA: 0 / 0</motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} className='mx-4 rounded-[30px] border border-purple-200 shadow-sm p-4'>Semester 6 SGPA: 0 / 0</motion.div>
